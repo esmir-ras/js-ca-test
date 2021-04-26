@@ -1,4 +1,4 @@
-const url = "https://ghibliapi.herokuapp.com/films";
+const url = "https://ghibliapi.herokuapp.com/";
 const proxy = "https://noroffcors.herokuapp.com/";
 
 const corsFix = proxy + url;
