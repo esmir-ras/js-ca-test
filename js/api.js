@@ -16,7 +16,7 @@ const facts = apiresults.results
 
 resultsContainer.innerHTML = "";
 
-for (let i = 0; i < length; i++) {
+for (let i = 0; i < facts.length; i++) {
    console.log(facts[i].title);
    console.log(facts[i].rating)
    console.log(facts[i].tags)
